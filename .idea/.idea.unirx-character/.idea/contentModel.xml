@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Inputs.cs" t="Include" />
         <e p="PlayerController.cs" t="Include" />
+        <e p="PlayerControllerSimple.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="UniRx" t="Include">
             <e p="Asynchronous" t="Include">

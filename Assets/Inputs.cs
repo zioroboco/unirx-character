@@ -13,8 +13,8 @@ public class Inputs : MonoBehaviour {
         
         Movement = this.FixedUpdateAsObservable()
             .Select(_ => {
-                var x = Input.GetAxis("Horizontal");
-                var y = Input.GetAxis("Vertical");
+                var x = Input.GetAxisRaw("Horizontal");
+                var y = Input.GetAxisRaw("Vertical");
                 return new Vector2(x, y).normalized;
             });
     }
